@@ -1,6 +1,7 @@
 {
   "artist": "Boney M.",
-    "assets": {
+  "assets": {
+    "default": {
       "banner_bkgImageUrl": "https://jd-s3.akamaized.net/public/map/Rasputin/ps4/Rasputin_banner_bkg.tga.ckd/6504f87c08c50c582880aca1ea7133f0.ckd",
       "coach1ImageUrl": "https://jd-s3.akamaized.net/public/map/Rasputin/ps4/Rasputin_Coach_1.tga.ckd/f0d68a9c3ff1bdac2d61977d29e655ab.ckd",
       "coverImageUrl": "https://jd-s3.akamaized.net/public/map/Rasputin/ps4/Rasputin_Cover_Generic.tga.ckd/8dca63d3ee0dd1234344e79a2d70876d.ckd",
@@ -10,45 +11,46 @@
       "expandCoachImageUrl": "https://jd-s3.akamaized.net/public/map/Rasputin/ps4/Rasputin_Cover_AlbumCoach.tga.ckd/2f985634f779e2c9544a3a37c7a33a4c.ckd",
       "phoneCoach1ImageUrl": "https://jd-s3.akamaized.net/public/map/Rasputin/Rasputin_Coach_1_Phone.png/c624ab875ef1969b30c70b089a51c3ba.png",
       "phoneCoverImageUrl": "https://jd-s3.akamaized.net/public/map/Rasputin/Rasputin_Cover_Phone.jpg/f237a1478b131b3952f42b1e2f5a6c28.jpg",
-      "map_bkgImageUrl": "https://jd-s3.akamaized.net/public/map/Rasputin/ps4/Rasputin_map_bkg.tga.ckd/344b77c1fa4072ef8b70bf1960189a0a.ckd"
-    },
-    "audioPreviewData": "{\"__class\":\"MusicTrackData\",\"structure\":{\"__class\":\"MusicTrackStructure\",\"markers\":[0,22720,45440,68160,90880,113600,136320,159040,181760,204480,227200,249920,272640,295360,318080,340800,363520,386240,408960,431680,454400,477120,499840,522560,545280,568000,590720,613440,636160,658880,681600,704320,727040,749760,772480,795200,818965,841685,864405,887125,909845,932565,955285,978005,1000725,1023445,1046165,1068885,1091605,1114325,1137045,1159765,1182485,1205205,1227925,1250645,1273365,1296085,1318805,1341525,1364245,1386965,1409685,1432405],\"signatures\":[{\"__class\":\"MusicSignature\",\"marker\":0,\"beats\":4}],\"startBeat\":0,\"endBeat\":540,\"fadeStartBeat\":0,\"useFadeStartBeat\":false,\"fadeEndBeat\":0,\"useFadeEndBeat\":false,\"videoStartTime\":0,\"previewEntry\":0,\"previewLoopStart\":0,\"previewLoopEnd\":63,\"volume\":0,\"fadeInDuration\":0,\"fadeInType\":0,\"fadeOutDuration\":0,\"fadeOutType\":0},\"path\":\"\",\"url\":\"jmcs://jd-contents/rasputin/rasputin_AudioPreview.ogg\"}",
-    "coachCount": 1,
-    "credits": "Written by Frank Farian, Fred Jay and George Reyam.  Published by Far Musikverlag Gmbh & Co. Kg (GEMA). All rights reserved. Used with permission.  Courtesy of Sony Music Entertainment Germany GmbH. By arrangement with Sony Music Licensing. All rights of the producer and other rightholders to the recorded work reserved. Unless otherwise authorized, the duplication, rental, loan, exchange or use of this video game for public performance, broadcasting and online distribution to the public are prohibited.",
-    "difficulty": 2,
-    "doubleScoringType": -1,
-    "jdmAttributes": [],
-    "lyricsColor": "B70030FF",
-    "lyricsType": 0,
-    "mainCoach": -1,
-    "mapLength": 256.972,
-    "mapName": "Rasputin",
-    "mapPreviewMpd": "<?xml version=\"1.0\"?>\r\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"urn:mpeg:DASH:schema:MPD:2011\" xsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011\" type=\"static\" mediaPresentationDuration=\"PT30S\" minBufferTime=\"PT1S\" profiles=\"urn:webm:dash:profile:webm-on-demand:2012\">\r\n\t<Period id=\"0\" start=\"PT0S\" duration=\"PT30S\">\r\n\t\t<AdaptationSet id=\"0\" mimeType=\"video/webm\" codecs=\"vp8\" lang=\"eng\" maxWidth=\"720\" maxHeight=\"370\" subsegmentAlignment=\"true\" subsegmentStartsWithSAP=\"1\" bitstreamSwitching=\"true\">\r\n\t\t\t<Representation id=\"0\" bandwidth=\"496213\">\r\n\t\t\t\t<BaseURL>jmcs://jd-contents/Rasputin/Rasputin_MapPreviewNoSoundCrop_LOW.vp8.webm</BaseURL>\r\n\t\t\t\t<SegmentBase indexRange=\"629-1118\">\r\n\t\t\t\t\t<Initialization range=\"0-629\" />\r\n\t\t\t\t</SegmentBase>\r\n\t\t\t</Representation>\r\n\t\t\t<Representation id=\"1\" bandwidth=\"1480233\">\r\n\t\t\t\t<BaseURL>jmcs://jd-contents/Rasputin/Rasputin_MapPreviewNoSoundCrop_MID.vp8.webm</BaseURL>\r\n\t\t\t\t<SegmentBase indexRange=\"630-1120\">\r\n\t\t\t\t\t<Initialization range=\"0-630\" />\r\n\t\t\t\t</SegmentBase>\r\n\t\t\t</Representation>\r\n\t\t\t<Representation id=\"2\" bandwidth=\"2938828\">\r\n\t\t\t\t<BaseURL>jmcs://jd-contents/Rasputin/Rasputin_MapPreviewNoSoundCrop_HIGH.vp8.webm</BaseURL>\r\n\t\t\t\t<SegmentBase indexRange=\"630-1120\">\r\n\t\t\t\t\t<Initialization range=\"0-630\" />\r\n\t\t\t\t</SegmentBase>\r\n\t\t\t</Representation>\r\n\t\t\t<Representation id=\"3\" bandwidth=\"3831366\">\r\n\t\t\t\t<BaseURL>jmcs://jd-contents/Rasputin/Rasputin_MapPreviewNoSoundCrop_ULTRA.vp8.webm</BaseURL>\r\n\t\t\t\t<SegmentBase indexRange=\"630-1120\">\r\n\t\t\t\t\t<Initialization range=\"0-630\" />\r\n\t\t\t\t</SegmentBase>\r\n\t\t\t</Representation>\r\n\t\t</AdaptationSet>\r\n\t</Period>\r\n</MPD>\r\n",
-    "mode": 6,
-    "originalJDVersion": 2,
-    "packages": {
-      "mapContent": "Rasputin_mapContent"
-    },
-    "parentMapName": "Rasputin",
-    "skuIds": [
-      "jd2017-pc-ww"
-    ],
-    "songColors": {
-      "songColor_1A": "B82386FF",
-      "songColor_1B": "1E0032FF",
-      "songColor_2A": "57E1D9FF",
-      "songColor_2B": "010033FF"
-    },
-    "status": 3,
-    "sweatDifficulty": 3,
-    "tags": [
-      "Main",
-      "subscribedSong",
-      "EasyPeasy"
-    ],
-    "title": "Rasputin",
-    "urls": {
-      "jmcs://jd-contents/Rasputin/Rasputin_AudioPreview.ogg": "https://jd-s3.akamaized.net/public/map/Rasputin/Rasputin_AudioPreview.ogg/09940cf86eace66ecf49dbbe4aaffedc.ogg",
+      "map_bkgImageUrl": "https://jd-s3.akamaized.net/public/map/Rasputin/ps4/Rasputin_map_bkg.tga.ckd/344b77c1fa4072ef8b70bf1960189a0a.ckd",
+      "videoPreviewVideoURL": "https://jd-s3.akamaized.net/public/map/Birthday/Birthday_VideoPreview.webm/dd54a86b3cd807eef559e93834e1b196.webm"
+    }
+  },
+  "audioPreviewData": "{\"__class\":\"MusicTrackData\",\"structure\":{\"__class\":\"MusicTrackStructure\",\"markers\":[0,22720,45440,68160,90880,113600,136320,159040,181760,204480,227200,249920,272640,295360,318080,340800,363520,386240,408960,431680,454400,477120,499840,522560,545280,568000,590720,613440,636160,658880,681600,704320,727040,749760,772480,795200,818965,841685,864405,887125,909845,932565,955285,978005,1000725,1023445,1046165,1068885,1091605,1114325,1137045,1159765,1182485,1205205,1227925,1250645,1273365,1296085,1318805,1341525,1364245,1386965,1409685,1432405],\"signatures\":[{\"__class\":\"MusicSignature\",\"marker\":0,\"beats\":4}],\"startBeat\":0,\"endBeat\":540,\"fadeStartBeat\":0,\"useFadeStartBeat\":false,\"fadeEndBeat\":0,\"useFadeEndBeat\":false,\"videoStartTime\":0,\"previewEntry\":0,\"previewLoopStart\":0,\"previewLoopEnd\":63,\"volume\":0,\"fadeInDuration\":0,\"fadeInType\":0,\"fadeOutDuration\":0,\"fadeOutType\":0},\"path\":\"\",\"url\":\"jmcs://jd-contents/rasputin/rasputin_AudioPreview.ogg\"}",
+  "coachCount": 1,
+  "credits": "Just Dance Best is an online mod made by Just Dance Alliance. We are not affiliated with Ubisoft nor own any rights over their copyrighted content and trademark. All rights of the producer and other rightholders to the recorded work reserved. Unless otherwise authorized, the duplication, rental, loan, exchange or use of this video game for public performance, broadcasting and online distribution to the public are prohibited.",
+  "difficulty": 2,
+  "doubleScoringType": -1,
+  "jdmAttributes": [],
+  "lyricsColor": "1BF3FFFF",
+  "lyricsType": 0,
+  "mainCoach": -1,
+  "mapLength": 216.667,
+  "mapName": "Birthday",
+  "mapPreviewMpd": "<?xml version=\"1.0\"?>\r\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"urn:mpeg:DASH:schema:MPD:2011\" xsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011\" type=\"static\" mediaPresentationDuration=\"PT30S\" minBufferTime=\"PT1S\" profiles=\"urn:webm:dash:profile:webm-on-demand:2012\">\r\n\t<Period id=\"0\" start=\"PT0S\" duration=\"PT30S\">\r\n\t\t<AdaptationSet id=\"0\" mimeType=\"video/webm\" codecs=\"vp8\" lang=\"eng\" maxWidth=\"720\" maxHeight=\"370\" subsegmentAlignment=\"true\" subsegmentStartsWithSAP=\"1\" bitstreamSwitching=\"true\">\r\n\t\t\t<Representation id=\"0\" bandwidth=\"496021\">\r\n\t\t\t\t<BaseURL>jmcs://jd-contents/Birthday/Birthday_MapPreviewNoSoundCrop_LOW.vp8.webm</BaseURL>\r\n\t\t\t\t<SegmentBase indexRange=\"635-1124\">\r\n\t\t\t\t\t<Initialization range=\"0-635\" />\r\n\t\t\t\t</SegmentBase>\r\n\t\t\t</Representation>\r\n\t\t\t<Representation id=\"1\" bandwidth=\"1458884\">\r\n\t\t\t\t<BaseURL>jmcs://jd-contents/Birthday/Birthday_MapPreviewNoSoundCrop_MID.vp8.webm</BaseURL>\r\n\t\t\t\t<SegmentBase indexRange=\"636-1126\">\r\n\t\t\t\t\t<Initialization range=\"0-636\" />\r\n\t\t\t\t</SegmentBase>\r\n\t\t\t</Representation>\r\n\t\t\t<Representation id=\"2\" bandwidth=\"2492144\">\r\n\t\t\t\t<BaseURL>jmcs://jd-contents/Birthday/Birthday_MapPreviewNoSoundCrop_HIGH.vp8.webm</BaseURL>\r\n\t\t\t\t<SegmentBase indexRange=\"636-1126\">\r\n\t\t\t\t\t<Initialization range=\"0-636\" />\r\n\t\t\t\t</SegmentBase>\r\n\t\t\t</Representation>\r\n\t\t\t<Representation id=\"3\" bandwidth=\"2724521\">\r\n\t\t\t\t<BaseURL>jmcs://jd-contents/Birthday/Birthday_MapPreviewNoSoundCrop_ULTRA.vp8.webm</BaseURL>\r\n\t\t\t\t<SegmentBase indexRange=\"636-1126\">\r\n\t\t\t\t\t<Initialization range=\"0-636\" />\r\n\t\t\t\t</SegmentBase>\r\n\t\t\t</Representation>\r\n\t\t</AdaptationSet>\r\n\t</Period>\r\n</MPD>\r\n",
+  "mode": 6,
+  "originalJDVersion": 2015,
+  "packages": {
+    "mapContent": "Birthday_mapContent"
+  },
+  "parentMapName": "Rasputin",
+  "skuIds": [
+    "jd2017-pc-ww"
+  ],
+  "songColors": {
+    "songColor_1A": "E59C00FF",
+    "songColor_1B": "A4003CFF",
+    "songColor_2A": "CF6793FF",
+    "songColor_2B": "DA00C1FF"
+  },
+  "status": 5,
+  "sweatDifficulty": 1,
+  "tags": [
+    "Main",
+    "freeSong"
+  ],
+  "title": "Rasputin",
+  "urls": {
+    "jmcs://jd-contents/Rasputin/Rasputin_AudioPreview.ogg": "https://jd-s3.akamaized.net/public/map/Rasputin/Rasputin_AudioPreview.ogg/09940cf86eace66ecf49dbbe4aaffedc.ogg",
       "jmcs://jd-contents/Rasputin/Rasputin_MapPreviewNoSoundCrop_HIGH.vp8.webm": "https://jd-s3.akamaized.net/public/map/Rasputin/Rasputin_MapPreviewNoSoundCrop_HIGH.vp8.webm/eca41999386bf6ab86f6d3ef76357a4a.webm",
       "jmcs://jd-contents/Rasputin/Rasputin_MapPreviewNoSoundCrop_HIGH.vp9.webm": "https://jd-s3.akamaized.net/public/map/Rasputin/Rasputin_MapPreviewNoSoundCrop_HIGH.vp9.webm/f461bc101f64565583651af475177a82.webm",
       "jmcs://jd-contents/Rasputin/Rasputin_MapPreviewNoSoundCrop_LOW.vp8.webm": "https://jd-s3.akamaized.net/public/map/Rasputin/Rasputin_MapPreviewNoSoundCrop_LOW.vp8.webm/d59bb6d113cea7c2d28c032945cabf8a.webm",
@@ -57,17 +59,33 @@
       "jmcs://jd-contents/Rasputin/Rasputin_MapPreviewNoSoundCrop_MID.vp9.webm": "https://jd-s3.akamaized.net/public/map/Rasputin/Rasputin_MapPreviewNoSoundCrop_MID.vp9.webm/3245bce0ab6b26d2b01ad9c7a6c6a31b.webm",
       "jmcs://jd-contents/Rasputin/Rasputin_MapPreviewNoSoundCrop_ULTRA.vp8.webm": "https://jd-s3.akamaized.net/public/map/Rasputin/Rasputin_MapPreviewNoSoundCrop_ULTRA.vp8.webm/efbaa995b06913dfd7668cab3212165e.webm",
       "jmcs://jd-contents/Rasputin/Rasputin_MapPreviewNoSoundCrop_ULTRA.vp9.webm": "https://jd-s3.akamaized.net/public/map/Rasputin/Rasputin_MapPreviewNoSoundCrop_ULTRA.vp9.webm/3ca7f913d161d385c9a21137b74b561f.webm"
+  },
+  "serverChangelist": 455481,
+  "skupackages": {
+    "orbis": {
+      "md5": "72eb35d44a058edd9cce029d18ae79e5",
+      "storageType": 0,
+      "url": "https://jd-s3.akamaized.net/public/map/Birthday/ps4/Birthday_MAIN_SCENE_ORBIS.zip/72eb35d44a058edd9cce029d18ae79e5.zip",
+      "version": 3
     },
-    "searchTags": [],
-    "searchTagsLocIds": [
-      13335,
-      12232,
-      15275,
-      15286,
-      15291,
-      15185,
-      9350,
-      15180
-    ],
-    "serverChangelist": 0
+    "pc": {
+      "md5": "e3b9b8cf8d0ea76458a4fe27b1cadbec",
+      "storageType": 0,
+      "url": "https://jd-s3.akamaized.net/public/map/Birthday/pc/Birthday_MAIN_SCENE_PC.zip/e3b9b8cf8d0ea76458a4fe27b1cadbec.zip",
+      "version": 3
+    },
+    "wiiu": {
+      "md5": "d03a47aa0f182136897e42818d84812c",
+      "storageType": 0,
+      "url": "https://jd-s3.akamaized.net/public/map/Birthday/wiiu/Birthday_MAIN_SCENE_WIIU.zip/d03a47aa0f182136897e42818d84812c.zip",
+      "version": 5
+    },
+    "nx": {
+      "md5": "e8d58353e1db04e95ac4bd1066d2ac17",
+      "storageType": 0,
+      "url": "https://jd-s3.akamaized.net/public/map/Birthday/nx/Birthday_MAIN_SCENE_NX.zip/e8d58353e1db04e95ac4bd1066d2ac17.zip",
+      "version": 3
+    }
+  },
+  "mapType": "jdu"
 }
